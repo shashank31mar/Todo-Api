@@ -31,5 +31,6 @@ Todo Endpoints:
 3) /todo - create new todo 
 4) /todo/<id> - complete todo, PUT request
 5) /todo/u - update todo, POST request
-6) todo/<id> - dlete request todo, DELTE request
+6) /todo/<id> - dlete request todo, DELTE request
   
+1) /login - logins in the user, and return the token for further use
