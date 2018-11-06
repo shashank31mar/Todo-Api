@@ -17,3 +17,19 @@ Export Following variables in terminal (mentioned in env/environment.env file)
 2) JWT_SECRET_KEY=shashank
 
 Run run.py file to startup the application.
+# Api Endpoints
+Admin Reponsibilites:
+1) /user - get all users
+2) /user/register - register a new user
+3) /user/<id> - get user with public id
+4) /user/<id> - promote user to admin PUT request
+5) /user/<id> - delete user, DELTE request
+ 
+Todo Endpoints:
+1) /todo - get todo's for logged in user
+2) /todo/<id> - get specific todo for logged in user
+3) /todo - create new todo 
+4) /todo/<id> - complete todo, PUT request
+5) /todo/u - update todo, POST request
+6) todo/<id> - dlete request todo, DELTE request
+  
