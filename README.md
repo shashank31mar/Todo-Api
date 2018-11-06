@@ -32,5 +32,12 @@ Todo Endpoints:
 4) /todo/<id> - complete todo, PUT request
 5) /todo/u - update todo, POST request
 6) /todo/<id> - dlete request todo, DELTE request
-  
+
+Login:
 1) /login - logins in the user, and return the token for further use
+
+# Docker Related:
+Build:
+docker build -t todo .
+Run:
+docker run -d -p 5000:5000 -h 0.0.0.0 --name todo_app todo
